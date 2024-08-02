@@ -7,9 +7,8 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Abstract
 {
-    //Interface metotları default publictir. Kendisi değildir.
-    public interface IProductDal : IEntityRepository<Product>
+    public interface ICategoryDal : IEntityRepository<Category>
     {
-        
+       
     }
 }
